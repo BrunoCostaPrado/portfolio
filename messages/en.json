@@ -1,0 +1,18 @@
+{
+	"HomePage": {
+		"title": "Hello world!",
+		"about": "Go to the about page"
+	},
+	"About": {
+		"title": "About us"
+	},
+	"Home": {
+		"title1": "Create",
+		"title2": "T3",
+		"title3": "App",
+		"firstStep": "First Steps →",
+		"basic": "Just the basics - Everything you need to know to set up your database and authentication.",
+		"documentation": "Documentation →",
+		"learn": "Learn more about Create T3 App, the libraries it uses, and how to deploy it."
+	}
+}

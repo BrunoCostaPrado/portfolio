@@ -1,0 +1,17 @@
+{
+	"files.associations": {
+		"*.sqlbook": "sql",
+		"*.ndjson": "jsonl",
+		"*.dbclient-js": "javascript",
+		"*.page-template": "vue",
+		"*.layout-template": "vue",
+		"*.vue": "vue",
+		".sequelizerc": "javascript",
+		".stylelintrc": "json",
+		".prettierrc": "json",
+		"*.tsx": "typescriptreact",
+		".env.*": "dotenv",
+		"*.css": "css",
+		"plyconfig.json": "jsonc"
+	}
+}
