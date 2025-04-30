@@ -10,6 +10,11 @@ const config = {
 	experimental: {
 		nextScriptWorkers: true,
 	},
+	trailingSlash: true,
+	images: {
+		minimumCacheTTL: 60, // 1 minute
+	},
+	compress: true,
 }
 
 const withNextIntl = createNextIntlPlugin()
