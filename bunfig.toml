@@ -1,7 +1,4 @@
-preload = ["./next.config.js"]
-
-
-logLevel = "debug"
+# logLevel = "debug"
 smol = false
 
 

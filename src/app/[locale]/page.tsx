@@ -21,7 +21,7 @@ export default async function HomePage() {
 						href="https://create.t3.gg/en/usage/first-steps"
 						target="_blank"
 					>
-						<h3 className="font-bold text-2xl">{t("firstStep")}</h3>
+						<h2 className="font-bold text-2xl">{t("firstStep")}</h2>
 						<div className="text-lg">{t("basic")}</div>
 					</Link>
 				</div>
