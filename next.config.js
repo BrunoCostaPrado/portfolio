@@ -13,6 +13,18 @@ const config = {
 	trailingSlash: true,
 	images: {
 		minimumCacheTTL: 60, // 1 minute
+		remotePatterns: [
+			new URL(
+				"https://gist.github.com/user-attachments/assets/f175bdbd-572c-4267-a26a-baa3a87fc65f"
+			),
+		],
+		localPatterns: [
+			{
+				pathname: "/src/components/images/*",
+				search: "",
+			},
+		],
+		deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
 	},
 	compress: true,
 }

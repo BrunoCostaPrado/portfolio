@@ -1,0 +1,10 @@
+preload = ["./next.config.js"]
+
+
+logLevel = "debug"
+smol = false
+
+
+[install.cache]
+
+dir = "./cache/bun"
