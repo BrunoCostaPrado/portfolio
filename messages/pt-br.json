@@ -1,12 +1,5 @@
 {
 	"HomePage": {
-		"title": "Olá mundo!",
-		"about": "Vá para a página sobre"
-	},
-	"About": {
-		"title": "Sobre nós"
-	},
-	"Home": {
 		"title1": "Create",
 		"title2": "T3",
 		"title3": "App",
@@ -14,5 +7,8 @@
 		"basic": "Apenas o básico - Tudo o que você precisa saber para configurar seu banco de dados e autenticação.",
 		"documentation": "Documentação →",
 		"learn": "Saiba mais sobre o Create T3 App, as bibliotecas que ele usa e como implantá-lo."
+	},
+	"About": {
+		"title": "Sobre nós"
 	}
 }

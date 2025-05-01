@@ -3,8 +3,8 @@
  * for Docker builds.
  */
 import "./src/env.js"
-
 import createNextIntlPlugin from "next-intl/plugin"
+
 /** @type {import("next").NextConfig} */
 const config = {
 	experimental: {
@@ -18,15 +18,11 @@ const config = {
 				"https://gist.github.com/user-attachments/assets/f175bdbd-572c-4267-a26a-baa3a87fc65f"
 			),
 		],
-		localPatterns: [
-			{
-				pathname: "/src/components/images/*",
-				search: "",
-			},
-		],
+
 		deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
 	},
 	compress: true,
+	cacheMaxMemorySize: 100,
 }
 
 const withNextIntl = createNextIntlPlugin()

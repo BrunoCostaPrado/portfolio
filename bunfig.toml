@@ -1,5 +1,5 @@
 # logLevel = "debug"
-smol = false
+smol = true
 
 
 [install.cache]

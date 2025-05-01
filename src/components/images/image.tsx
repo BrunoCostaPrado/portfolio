@@ -5,10 +5,18 @@ import Image from "next/image"
 const image =
 	"https://gist.github.com/user-attachments/assets/f175bdbd-572c-4267-a26a-baa3a87fc65f"
 
+const imageLoader = await image
+
 export async function ProfileImage() {
 	return (
 		<div>
-			<Image src={image} alt="alt" width={500} height={500} loading="eager" />
+			<Image
+				src={imageLoader}
+				alt="alt"
+				width={500}
+				height={500}
+				loading="lazy"
+			/>
 		</div>
 	)
 }

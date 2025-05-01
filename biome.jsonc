@@ -7,9 +7,11 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": ["node_modules", ".vscode", "public"]
+		"ignore": ["node_modules", ".vscode", "public", "./cache"]
 	},
-	"formatter": { "enabled": true },
+	"formatter": {
+		"enabled": true
+	},
 	"javascript": {
 		"formatter": {
 			"arrowParentheses": "asNeeded",
@@ -19,7 +21,9 @@
 			"trailingCommas": "es5"
 		}
 	},
-	"organizeImports": { "enabled": true },
+	"organizeImports": {
+		"enabled": true
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
