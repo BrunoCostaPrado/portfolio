@@ -13,13 +13,6 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.bun
-          key: ${{ runner.os }}-bun
-          restore-keys: |
-            ${{ runner.os }}-bun
       - name: Install dependencies
         run: bun install
 
