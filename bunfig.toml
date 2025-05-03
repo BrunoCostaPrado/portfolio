@@ -5,3 +5,4 @@ smol = true
 [install.cache]
 
 dir = "./cache/bun"
+

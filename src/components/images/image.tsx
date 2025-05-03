@@ -15,7 +15,7 @@ export async function ProfileImage() {
 				alt="alt"
 				width={500}
 				height={500}
-				loading="lazy"
+				loading="eager"
 			/>
 		</div>
 	)

@@ -4,12 +4,11 @@ import { PostHogProvider } from "@/components/posthog/provider"
 import { ReactScan } from "@/components/react-component/ReactScanComponent"
 import { env } from "@/env"
 import { routing } from "@/i18n/routing"
+import { geist } from "@/lib/fonts"
 import { DevOnly } from "@redbruno/isdev"
-import { geist } from "@/lib/geist"
+import type { Metadata } from "next"
 import { NextIntlClientProvider, hasLocale } from "next-intl"
 import { notFound } from "next/navigation"
-import type { Metadata } from "next"
-
 export const metadata: Metadata = {
 	title: "Portfolio",
 	description: "Portfolio created using create-t3-app",

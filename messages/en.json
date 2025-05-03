@@ -9,6 +9,8 @@
 		"learn": "Learn more about Create T3 App, the libraries it uses, and how to deploy it."
 	},
 	"About": {
-		"title": "About me"
+		"title": "About me",
+		"about": "About mee",
+		"age": " years old"
 	}
 }
