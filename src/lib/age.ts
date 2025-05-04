@@ -1,19 +1,22 @@
+import { env } from "@/env"
+
 function calculateAge(birthdate: Date): number {
 	const today = new Date()
 	const age = today.getFullYear() - birthdate.getFullYear()
 	const monthDiff = today.getMonth() - birthdate.getMonth()
+
 	if (
 		monthDiff < 0 ||
 		(monthDiff === 0 && today.getDate() < birthdate.getDate())
 	) {
 		return age - 1
 	}
+
 	return age
 }
 
-const birthdate = new Date("2003-05-16")
+const birthdate = new Date(env.AGE)
 export const age = calculateAge(birthdate)
-// console.log(age)
 
 function checkForUpdate(): void {
 	const today = new Date()

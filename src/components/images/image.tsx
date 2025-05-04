@@ -7,7 +7,7 @@ const image =
 
 const imageLoader = await image
 
-export async function ProfileImage() {
+export default async function ProfileImage() {
 	return (
 		<div>
 			<Image

@@ -1,6 +1,7 @@
+"use server"
 import AboutMe from "@/components/about/about"
 
-import { ProfileImage } from "@/components/images/image"
+import ProfileImage from "@/components/images/image"
 
 import { getTranslations } from "next-intl/server"
 

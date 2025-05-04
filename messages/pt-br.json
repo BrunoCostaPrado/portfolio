@@ -1,16 +1,10 @@
 {
-	"HomePage": {
-		"title1": "Create",
-		"title2": "T3",
-		"title3": "App",
-		"firstStep": "Primeiros passos →",
-		"basic": "Apenas o básico - Tudo o que você precisa saber para configurar seu banco de dados e autenticação.",
-		"documentation": "Documentação →",
-		"learn": "Saiba mais sobre o Create T3 App, as bibliotecas que ele usa e como implantá-lo."
-	},
+	"HomePage": {},
 	"About": {
 		"title": "Sobre mim",
-		"about": "About mini",
-		"age": " anos"
+		"age": " anos",
+		"collage": "Faculdade Estácio de Sá",
+		"Degree": "Engenharia de Software",
+		"semester": "7º semestre"
 	}
 }
