@@ -9,6 +9,7 @@ import { DevOnly } from "@redbruno/isdev"
 import type { Metadata } from "next"
 import { NextIntlClientProvider, hasLocale } from "next-intl"
 import { notFound } from "next/navigation"
+
 export const metadata: Metadata = {
 	title: "Portfolio",
 	description: "Portfolio created using create-t3-app",

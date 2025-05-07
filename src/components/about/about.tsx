@@ -18,6 +18,7 @@ export default async function AboutMe() {
 				<p>{t("collage")}</p>
 				<p>{t("Degree")}</p>
 				<p>{t("semester")}</p>
+				<p>{t("school")}</p>
 			</div>
 		</div>
 	)
