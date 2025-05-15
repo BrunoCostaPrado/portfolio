@@ -22,3 +22,6 @@ jobs:
 
       - name: typecheck app
         run: bun typecheck
+
+      - name: lint app
+        run: bun lint

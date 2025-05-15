@@ -8,6 +8,7 @@
 cache
 public/robots.txt
 public/sitemap.xml
+cypress
 
 # testing
 /coverage
