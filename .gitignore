@@ -9,6 +9,7 @@ cache
 public/robots.txt
 public/sitemap.xml
 # cypress
+font
 
 # testing
 /coverage
