@@ -46,6 +46,7 @@
 		"@types/node": "^22.15.18",
 		"@types/react": "^19.1.4",
 		"@types/react-dom": "^19.1.5",
+		"cypress": "^14.3.3",
 		"husky": "^9.1.7",
 		"patch-package": "^8.0.0",
 		"postcss": "^8.5.3",
@@ -57,9 +58,5 @@
 	},
 	"ct3aMetadata": {
 		"initVersion": "7.39.3"
-	},
-	"browserslist": [
-		"defaults and fully supports es6-module",
-		"maintained node versions"
-	]
+	}
 }

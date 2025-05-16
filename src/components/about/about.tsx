@@ -14,7 +14,6 @@ export default async function AboutMe() {
 			<div className="flex gap-2">
 				<p>{year}</p>
 				<p> {t("age")}</p>
-			
 			</div>
 			<div>
 				<p>{t("collage")}</p>
