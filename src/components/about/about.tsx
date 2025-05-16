@@ -3,7 +3,7 @@ import { age } from "@/lib/age"
 import { getTranslations } from "next-intl/server"
 
 const year: number = age
-const date = new Date()
+
 export default async function AboutMe() {
 	const t = await getTranslations("About")
 	return (
@@ -14,7 +14,7 @@ export default async function AboutMe() {
 			<div className="flex gap-2">
 				<p>{year}</p>
 				<p> {t("age")}</p>
-				<p>{date.toLocaleString()}</p>
+			
 			</div>
 			<div>
 				<p>{t("collage")}</p>
