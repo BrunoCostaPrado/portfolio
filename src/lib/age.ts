@@ -26,3 +26,5 @@ function checkForUpdate(): void {
 }
 
 setInterval(checkForUpdate, 1000 * 60 * 60 * 24)
+
+
